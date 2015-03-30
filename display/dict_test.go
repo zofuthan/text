@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
+	"github.com/zofuthan/text/internal/testtext"
 )
 
 func TestLinking(t *testing.T) {
@@ -30,8 +30,8 @@ func getSize(t *testing.T, main string) int {
 
 const body = `package main
 import (
-	"golang.org/x/text/display"
-	"golang.org/x/text/language"
+	"github.com/zofuthan/text/display"
+	"github.com/zofuthan/text/language"
 )
 func main() {
 	%s

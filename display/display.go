@@ -12,12 +12,12 @@
 // large. The display package is designed so that users can reduce the linked-in
 // table sizes by cherry picking the languages one wishes to support. There is a
 // Dictionary defined for a selected set of common languages for this purpose.
-package display // import "golang.org/x/text/display"
+package display // import "github.com/zofuthan/text/display"
 
 import (
 	"strings"
 
-	"golang.org/x/text/language"
+	"github.com/zofuthan/text/language"
 )
 
 /*

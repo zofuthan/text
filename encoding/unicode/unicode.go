@@ -3,15 +3,15 @@
 // license that can be found in the LICENSE file.
 
 // Package unicode provides Unicode encodings such as UTF-16.
-package unicode // import "golang.org/x/text/encoding/unicode"
+package unicode // import "github.com/zofuthan/text/encoding/unicode"
 
 import (
 	"errors"
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/transform"
+	"github.com/zofuthan/text/encoding"
+	"github.com/zofuthan/text/transform"
 )
 
 // TODO: UTF-16 SHOULD default to BigEndian (or here the Endianess given) if no

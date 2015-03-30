@@ -2,7 +2,7 @@ package cldr_test
 
 import (
 	"fmt"
-	"golang.org/x/text/cldr"
+	"github.com/zofuthan/text/cldr"
 )
 
 func ExampleSlice() {

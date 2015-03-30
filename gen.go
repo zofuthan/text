@@ -19,7 +19,7 @@ import (
 	"sync"
 	"unicode"
 
-	"golang.org/x/text/internal/gen"
+	"github.com/zofuthan/text/internal/gen"
 )
 
 var (

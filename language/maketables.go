@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/text/cldr"
-	"golang.org/x/text/internal/gen"
+	"github.com/zofuthan/text/cldr"
+	"github.com/zofuthan/text/internal/gen"
 )
 
 var (

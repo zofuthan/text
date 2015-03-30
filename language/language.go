@@ -21,7 +21,7 @@
 //
 // NOTE: This package is still under development. Parts of it are not yet
 // implemented, and the API is subject to change.
-package language // import "golang.org/x/text/language"
+package language // import "github.com/zofuthan/text/language"
 
 import (
 	"errors"

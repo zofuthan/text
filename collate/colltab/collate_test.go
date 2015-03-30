@@ -12,8 +12,8 @@ import (
 	"testing"
 	"unicode"
 
-	"golang.org/x/text/collate"
-	"golang.org/x/text/language"
+	"github.com/zofuthan/text/collate"
+	"github.com/zofuthan/text/language"
 )
 
 func TestNonDigits(t *testing.T) {

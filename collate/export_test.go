@@ -10,7 +10,7 @@ package collate
 import (
 	"fmt"
 
-	"golang.org/x/text/collate/colltab"
+	"github.com/zofuthan/text/collate/colltab"
 )
 
 const (

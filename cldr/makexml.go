@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/text/internal/gen"
+	"github.com/zofuthan/text/internal/gen"
 )
 
 var outputFile = flag.String("output", "xml.go", "output file name")

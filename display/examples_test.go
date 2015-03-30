@@ -7,8 +7,8 @@ package display_test
 import (
 	"fmt"
 
-	"golang.org/x/text/display"
-	"golang.org/x/text/language"
+	"github.com/zofuthan/text/display"
+	"github.com/zofuthan/text/language"
 )
 
 func ExampleNamer() {

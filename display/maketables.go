@@ -18,9 +18,9 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/text/cldr"
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/language"
+	"github.com/zofuthan/text/cldr"
+	"github.com/zofuthan/text/internal/gen"
+	"github.com/zofuthan/text/language"
 )
 
 var (

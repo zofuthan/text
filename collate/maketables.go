@@ -25,12 +25,12 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"golang.org/x/text/cldr"
-	"golang.org/x/text/collate"
-	"golang.org/x/text/collate/build"
-	"golang.org/x/text/collate/colltab"
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/language"
+	"github.com/zofuthan/text/cldr"
+	"github.com/zofuthan/text/collate"
+	"github.com/zofuthan/text/collate/build"
+	"github.com/zofuthan/text/collate/colltab"
+	"github.com/zofuthan/text/internal/gen"
+	"github.com/zofuthan/text/language"
 )
 
 var (

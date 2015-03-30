@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/text/collate/colltab"
-	"golang.org/x/text/language"
+	"github.com/zofuthan/text/collate/colltab"
+	"github.com/zofuthan/text/language"
 )
 
 var (

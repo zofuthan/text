@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/transform"
+	"github.com/zofuthan/text/internal/testtext"
+	"github.com/zofuthan/text/transform"
 )
 
 func foldRune(r rune) (folded rune, ok bool) {
